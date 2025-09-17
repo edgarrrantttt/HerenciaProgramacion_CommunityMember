@@ -9,7 +9,7 @@ namespace HerenciaProgramacion
     public abstract class Person
     {
         public string Name { get; set; }
-        public string SurName { get; set; }
+        public string SurName {get; set; }
         public string Sex { get; set; }
 
         public Person(string name, string surname, string sex)
